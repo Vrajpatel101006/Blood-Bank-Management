@@ -128,7 +128,7 @@ namespace BloodBank
                 ToggleSecureMenus(false);
 
                 // 3. Open the Sign Up form (this automatically closes all other active child forms)
-                OpenChildForm(new SignUp());
+                OpenChildForm(new Login());
 
                 // Note: If you'd rather it redirect to Login instead of Sign Up, 
                 // just change the line above to: OpenChildForm(new Login());
